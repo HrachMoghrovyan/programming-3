@@ -1,4 +1,6 @@
-class Snake{
+let LivingCreature = require("./LivingCreature")
+
+module.exports = class Snake{
     constructor(x,y){
         this.x = x
         this.y = y

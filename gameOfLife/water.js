@@ -1,4 +1,6 @@
-class Water{
+let LivingCreature = require("./LivingCreature")
+
+module.exports = class Water{
     constructor(x,y){
         this.x = x
         this.y = y
